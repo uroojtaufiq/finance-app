@@ -1,3 +1,24 @@
+import subprocess
+import sys
+
+# Install required libraries
+def install_packages():
+    packages = ["streamlit", "pandas", "matplotlib"]
+    for package in packages:
+        subprocess.run([sys.executable, "-m", "pip", "install", package])
+
+install_packages()
+
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Your app logic starts here
+st.title("Finance App")
+
+
+
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
