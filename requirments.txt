@@ -1,10 +1,36 @@
-streamlit>=1.32.0
-pandas>=2.2.2
-numpy>=2.0.2
-yfinance>=0.2.55
-matplotlib>=3.10.0
-plotly>=5.24.1
-scipy>=1.14.1
-scikit-learn>=1.6.1
-seaborn>=0.13.2
-statsmodels>=0.14.4
+# Core Data Processing
+pandas==2.2.2
+numpy==2.0.2
+python-dateutil==2.8.2
+pytz==2025.1
+
+# Finance Specific
+yfinance==0.2.55
+statsmodels==0.14.4
+ta==0.11.0  # Technical analysis library
+
+# Visualization
+matplotlib==3.10.0
+plotly==5.24.1
+seaborn==0.13.2
+cufflinks==0.17.3  # Plotly+pandas integration
+
+# Data Science Utilities
+scipy==1.14.1
+scikit-learn==1.6.1
+joblib==1.4.2
+threadpoolctl==3.6.0
+
+# Web/API
+requests==2.32.3
+urllib3==2.3.0
+beautifulsoup4==4.13.3
+
+# Optional but useful
+openpyxl==3.1.5  # Excel support
+python-dotenv==1.0.0  # Environment variables
+tqdm==4.67.1  # Progress bars
+
+# Streamlit Core
+streamlit==1.32.2
+streamlit-aggrid==0.3.4  # Enhanced tables
